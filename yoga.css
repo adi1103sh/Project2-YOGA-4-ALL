@@ -1,0 +1,235 @@
+/* TO SET DEFAULTS FOR ENTIRE HTML */
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    overflow:auto;
+    color:white;
+    scroll-behavior: smooth;
+}
+
+/* TO SET BACKGROUND COLOUR  */
+body{
+    background-color:black;
+}
+
+/* TO SET HEADER CONFIGURATIONS */
+header{
+    margin-bottom: 58px;
+    background-color: #420851;
+}
+
+/* TO SET CONFIGURATION OF NAVIGATION BAR */
+nav{
+    margin: 30px 65px 0px 50px;
+    background-color:rgb(224, 194, 194);
+    height: 50px;
+    border-radius: 30px;
+}
+
+/* STYLING LINKS OF NAVIGATION BAR */
+.navbar li a{
+    text-decoration:none;
+    font-size: 17px;
+    color: black;
+    padding:0px 80px;
+    font-family: cursive;
+}
+.navbar li a:hover{
+    transition:0.5s;
+    text-transform: uppercase;
+    text-decoration: underline;
+    color: red;
+}
+.navbar li a.active{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color:red;
+}
+
+/* TO SET DETAILINGS OF LOGO */
+.logo{
+    background-image: url('Images/logo.png');
+    padding: 50px 75px;
+    margin: 40px;
+    margin-top: 8px;
+    float:left;
+    width:435px;
+    height:120px;
+    border: 2px solid black;
+    filter:invert(100%);
+}
+
+/* TO SET CONFIGURATION OF NAVIGATION BAR'S ITEMS */
+.navbar ul{
+    padding: 12px 4px;
+}
+.navbar li{
+    float:left;
+}
+
+/* TO SET DIFFERENT FONT FOR HEADINGS */
+h1{
+    font-family: cursive;
+}
+
+/* TO SET CONFIGURATION OF CONTAINER */
+.container{
+    background-color: rgba(128, 128, 128, 0.144);
+    display: inline-block;
+}
+
+/* TO SET CONFIGURATION OF WELCOME PAGE */
+#welcome{
+    margin-left: 59px;
+    margin-top: 52px;
+    padding: 15px 14px;
+    width:40%;
+}
+#welcome p{
+    margin-top: 18px;
+    font-size: 25px;
+    text-align: justify;
+    padding: 0px 25px;
+}
+#welcome h1{
+    font-size:50px;
+    width:100%;
+    text-decoration: underline;
+}
+
+/* TO SET CONFIGURATION OF WELCOME IMAGE */
+#carousel{
+    float:right;
+    width: 600px;
+    height: 351px;
+    margin: 0px 130px 0px 77px;
+}
+
+/* TO SET CONFIGURATION OF SUB-CONTAINERS */
+#box,#goods,#contact{
+    width: 98%;
+    height: 351px;
+    margin:10px;
+    margin-top: 100px;
+}
+
+/* STYLING SUB-CONTAINERS */
+#meditate,#yoga,#relief,#shoes,#mats,#accessories,#time,#media,#call{
+    display: inline-block;
+    width: 32.7%;
+    height: 335px;
+    margin: 3.7px 3px;
+    border: 1px solid rgb(143, 10, 143);
+    border-radius: 26px;
+}
+
+/* STYLING SUB-CONTAINER'S PICS */
+.left,.mid,.right{
+    margin-left: 180px;
+}
+
+/* ADJUSTING MIDDLE PIC OF BOX SUB-CONTAINER */
+.mid{
+    margin-top: 12px;
+}
+
+/* ADJUSTING PIC OF GOODS SUB-CONTAINER */
+#goods .left,#goods .right,#goods .mid{
+    margin-top: 12px;
+    margin-left: 45px;
+}
+
+/* STYLING CONTENT OF SUB-CONTAINERS */
+#meditate h1,#yoga h1,#relief h1,#shoes h1,#mats h1,#accessories h1,#time h1,#media h1,#call h1{
+    text-align:center;
+}
+#meditate p,#yoga p,#relief p,#shoes p,#mats p,#accessories p{
+    font-size:20px;
+    margin-top: 24px;
+    padding:5px;
+}
+
+/* STYLING BUTTONS */
+.btn{
+    font-family:cursive;
+    font-size:25px;
+    background-color: orange;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    margin:10px;
+    margin-top:16px;
+    margin-left:193px;
+    padding:5px;
+    cursor:pointer;
+}
+.btn:hover{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color:aqua;
+}
+
+/* ADJUSTING PIC OF CONTACT SUB-CONTAINER */
+#media .mid {
+    margin-left:20px;
+    width:50;
+    border: 2px solid black;
+    filter:invert(100%);
+}
+
+/* TO SET CONTENT OF CONTACT'S SUB CONTAINER */
+#time h4,#media h4,#call h4{
+    margin-top: 34px;
+    margin-left: 190px;
+    font-size:20px;
+    width: 127px;
+    text-decoration: underline;
+}
+#time h6,#media h6,#call h6{
+    margin-top: 10px;
+    margin-left: 190px;
+    font-size:20px;
+    width: 200px;
+    text-align:justify;
+}
+#media h2,#media h3{
+    text-align:center;
+    margin:10px;
+    padding:5px;
+    font-family:cursive;
+}
+#media button{
+    font-family:cursive;
+    font-size:25px;
+    background-color: orange;
+    border: 0.5px solid white;
+    border-radius: 10px;
+    margin:10px;
+    margin-top:16px;
+    margin-left:195px;
+    padding:5px;
+    cursor:pointer;
+}
+#media button a{
+    text-decoration: none;
+}
+#media button a:hover{
+    text-transform: uppercase;
+    text-decoration: underline;
+    color:aqua;
+}
+
+/* SETTING MARGIN BETWEEN FOOTER AND CONTACT CONTAINER */
+#contact{
+    margin-bottom:100px;
+}
+
+/* STYLING FOOTER */
+footer{
+    text-align: center;
+    margin:auto;
+    width: 357px;
+    font-family: cursive;
+    background-color:  #420851;
+    margin-bottom: 30px;
+}
