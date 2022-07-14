@@ -30,14 +30,14 @@ nav{
 /* STYLING LINKS OF NAVIGATION BAR */
 .navbar li a{
     text-decoration:none;
-    font-size: 17px;
+    font-size: 15px;
     color: black;
     padding:0px 80px;
     font-family: cursive;
 }
 .navbar li a:hover{
     transition:0.5s;
-    text-transform: uppercase;
+    font-size: medium;
     text-decoration: underline;
     color: red;
 }
